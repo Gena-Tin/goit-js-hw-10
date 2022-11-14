@@ -17,4 +17,21 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+
+  /* border: none; */
+  border-color: rgba(15, 65, 75, 0.486);
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+#search-box:hover{
+  border-color: rgba(21, 185, 218, 0.486);
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.199), 0 15px 40px rgba(11, 138, 110, 0.007);
+}
+
+#search-box:focus {
+  outline: none;
+}
+
+.country-list{
+  list-style: none;
 }
